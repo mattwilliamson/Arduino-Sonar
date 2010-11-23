@@ -29,6 +29,7 @@ void loop()
   }
 }
 
+// playTone snagged from http://michael.thegrebs.com/2009/03/23/playing-a-tone-through-an-arduino-connected-piezo/
 void playTone(long duration, int freq) {
     duration *= 1000;
     int period = (1.0 / freq) * 1000000;

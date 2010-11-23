@@ -6,6 +6,10 @@ This is a simple library for the [Arduino](http://www.amazon.com/gp/product/B004
 
 Copy the whole Arduino-Sonar folder into to your *Documents/Arduino/libraries* folder.
 
+## Circuit
+
+![Alt text](Circuit.png)
+
 ## Usage
 
 Using the library is dead simple:
@@ -15,3 +19,6 @@ Using the library is dead simple:
     Ultrasound sonar(pinSonar);
     double distanceMeters = sonar.read();
 
+## Video
+
+<object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/tps1cN1xQcc?hl=en&fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/tps1cN1xQcc?hl=en&fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344"></embed></object>
