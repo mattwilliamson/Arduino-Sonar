@@ -23,7 +23,7 @@ Using the library is dead simple:
     #include <Ultrasound.h>
     int pinSonar = 7;
     Ultrasound sonar(pinSonar);
-    double distanceMeters = sonar.read();
+    int distanceCentimeters = sonar.read();
 
 ## Video
 
