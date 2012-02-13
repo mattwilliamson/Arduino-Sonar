@@ -27,9 +27,10 @@ float Ultrasound::read()
 	
 	// Only half the distance is receiving
 	microseconds /= 2;
-	float meters = microseconds / SPEED_OF_SOUND / 100.0;
+	float cm = microseconds / SPEED_OF_SOUND;
 	
-	meters = meters == 0 ? 3 : meters;
+	// Minimum distance is 3cm
+	// cm = cm == 0 ? 3 : cm;
 	
-	return meters;
+	return cm;
 }
