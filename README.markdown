@@ -8,9 +8,9 @@ Copy the whole Arduino-Sonar folder into to your *Documents/Arduino/libraries* f
 
 ## Circuit
 
-![Circuit](https://github.com/mattwilliamson/Arduino-Sonar/raw/master/Circuit.png)
+![Circuit](https://github.com/mattwilliamson/Arduino-Sonar/raw/master/Sonar/Circuit.png)
 
-![Action Shot](https://github.com/mattwilliamson/Arduino-Sonar/raw/master/Action.png)
+![Action Shot](https://github.com/mattwilliamson/Arduino-Sonar/raw/master/Sonar/Action.png)
 
 ## Usage
 

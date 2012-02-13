@@ -3,7 +3,6 @@
  Reads distance from an ultrasound sensor
 */
 
-#include "WProgram.h"
 #include <Ultrasound.h>
 
 Ultrasound::Ultrasound(int pin)
