@@ -14,6 +14,8 @@ This is a simple library for the [Arduino](http://www.amazon.com/gp/product/B004
 
 Copy the whole `Sonar` folder into to your `Documents/Arduino/libraries` folder.
 
+There are more detailed directions in the [Arduino docs](http://www.arduino.cc/en/Hacking/Libraries)
+
 ## Usage
 
 Using the library is dead simple:
