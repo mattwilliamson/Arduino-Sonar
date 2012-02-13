@@ -11,7 +11,7 @@ Ultrasound::Ultrasound(int pin)
 	_pin = pin;
 }
 
-float Ultrasound::read()
+int Ultrasound::read()
 {
 	// Send Read Impulse
 	pinMode(_pin, OUTPUT);
@@ -26,11 +26,11 @@ float Ultrasound::read()
 	long microseconds = pulseIn(_pin, HIGH, 20000);
 	
 	// Only half the distance is receiving
+	// half is transmitting
 	microseconds /= 2;
-	float cm = microseconds / SPEED_OF_SOUND;
+	float meters = microseconds / SPEED_OF_SOUND / 100.0;
 	
-	// Minimum distance is 3cm
-	// cm = cm == 0 ? 3 : cm;
+	meters = meters == 0 ? 3 : meters;
 	
-	return cm;
+	return meters * 100;
 }

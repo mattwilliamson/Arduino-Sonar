@@ -15,7 +15,7 @@
 class Ultrasound {
 public:
     Ultrasound(int pin);
-    float read();
+    int read();
 private:
     int _pin;
 };
